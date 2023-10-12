@@ -1,0 +1,43 @@
+
+footer{
+    background-color: #1468c7;
+    color: white;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes li {
+    margin-right: 20px;
+}
+
+.logofooter {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: -70px;
+    display: flex;
+    text-align: left;
+}
+
+.colfooter {
+    padding: 30px;
+}
+
+.colfooter logoFooter {
+    text-align: right;
+    margin-left: -50px;
+}
+
+@media screen and (max-width: 770px) {
+
+    .logofooter {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
